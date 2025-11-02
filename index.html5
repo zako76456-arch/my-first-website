@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Менің болашағым — GitHub Pages</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="Менің болашағым — неондық түнгі дизайн, GitHub Pages үлгісі.">
+</head>
+<body>
+  <div class="grid-bg"></div>
+
+  <header class="site-header">
+    <div class="logo">
+      <svg width="44" height="44" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <rect x="2" y="2" width="20" height="20" rx="4" stroke="#00FFF0" stroke-width="1.2" fill="rgba(0,255,240,0.03)"/>
+        <path d="M6 16 L10 9 L14 16" stroke="#00E5FF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+    <h1 class="title">Менің болашағым</h1>
+    <p class="subtitle">Арман — жоспар. Жоспар — әрекет. Әрекет — нәтиже.</p>
+  </header>
+
+  <main class="container">
+    <section class="card hero">
+      <h2>Армандарға жету</h2>
+      <p>Болашақ — сенің әр таңғы қимылыңда жасалатын нәрсе. Қазір жасаған кішкентай қадамдар үлкен нәтижеге жеткізеді.</p>
+      <div class="features">
+        <div class="feature">
+          <h3>Білім</h3>
+          <p>Үзіліссіз оқу — сенің ең мықты қаруың.</p>
+        </div>
+        <div class="feature">
+          <h3>Талап</h3>
+          <p>Міндеттерге берілгендік мақсатқа жақындатады.</p>
+        </div>
+        <div class="feature">
+          <h3>Қоғам</h3>
+          <p>Басқаларға көмектесу — болашақтың негізі.</p>
+        </div>
+      </div>
+      <a class="cta" href="#more">Көбірек білу</a>
+    </section>
+
+    <section id="more" class="card details">
+      <h2>Қадамдық жоспар</h2>
+      <ol>
+        <li>Мақсат қою — қысқа және ұзақ мерзімді.</li>
+        <li>Оқу жоспарын жасау — күнделікті кішкене қадамдар.</li>
+        <li>Жобаны бастау — тәжірибе маңызды.</li>
+        <li>Қоғамдық әрекет — біліміңді бөліс.</li>
+      </ol>
+      <p class="muted">Берілген үлгі Github Pages-ке дайын. Файлдарды репозиторийге қосып, басты (main) тармағынан жариялаңыз.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Менің болашағым • GitHub Pages үлгісі</p>
+    <p class="muted">Repo: <code>username/username.github.io</code></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
