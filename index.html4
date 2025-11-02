@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Менің болашағым</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background: radial-gradient(circle at top, #0a0a0a, #000000 80%);
+      color: #e0e0e0;
+      overflow-x: hidden;
+    }
+
+    header {
+      text-align: center;
+      padding: 100px 20px 60px;
+      position: relative;
+      background: linear-gradient(180deg, #0c0c0c 0%, #000 100%);
+    }
+
+    h1 {
+      font-size: 3.5em;
+      color: #00eaff;
+      text-shadow: 0 0 20px #00eaff, 0 0 40px #0088ff;
+      animation: glow 2.5s ease-in-out infinite alternate;
+    }
+
+    @keyframes glow {
+      from { text-shadow: 0 0 10px #00eaff, 0 0 20px #0077cc; }
+      to { text-shadow: 0 0 25px #00eaff, 0 0 50px #00ffff; }
+    }
+
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px;
+      line-height: 1.8;
+      font-size: 1.2em;
+      position: relative;
+      z-index: 2;
+    }
+
+    p {
+      margin-bottom: 25px;
+    }
+
+    .highlight {
+      color: #00ffff;
+      font-weight: 600;
+      text-shadow: 0 0 10px #00ffff;
+    }
+
+    .card {
+      background: rgba(15, 15, 15, 0.8);
+      border: 1px solid #00eaff;
+      border-radius: 15px;
+      padding: 30px;
+      margin-top: 40px;
+      box-shadow: 0 0 30px rgba(0, 234, 255, 0.2);
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 0 50px rgba(0, 255, 255, 0.4);
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 10px;
+      font-size: 0.9em;
+      color: #888;
+      border-top: 1px solid #111;
+    }
+
+    /* Неоновая линия внизу */
+    footer::before {
+      content: "";
+      display: block;
+      height: 2px;
+      width: 80%;
+      margin: 0 auto 20px;
+      background: linear-gradient(90deg, transparent, #00ffff, transparent);
+      animation: lineGlow 3s infinite linear;
+    }
+
+    @keyframes lineGlow {
+      0% { opacity: 0.3; }
+      50% { opacity: 1; }
+      100% { opacity: 0.3; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Менің болашағым</h1>
+  </header>
+
+  <main>
+    <div class="card">
+      <p>Болашақ — ол менің армандарымның бағыты, менің мақсаттарымның жолы. Мен өз болашағымды <span class="highlight">жарқын, шабытты және технологияға толы</span> етіп елестетемін.</p>
+
+      <p>Мен жаңа идеяларды жүзеге асырып, әлемге өзгеріс енгізгім келеді. Өз елімнің дамуына үлес қосу — менің өмірлік миссиям.</p>
+
+      <p>Табандылық, еңбек және сенім — менің жетістік кілттерім. Болашақ мен үшін тек арман емес, ол — <span class="highlight">мақсат пен мүмкіндік</span>.</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Менің болашағым | Неондық шабытпен жасалған 💡</p>
+  </footer>
+
+</body>
+</html>
